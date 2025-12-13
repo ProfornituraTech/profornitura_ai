@@ -1,0 +1,2 @@
+recursive-include profornitura_ai *.json *.md *.txt *.py
+include README.md
