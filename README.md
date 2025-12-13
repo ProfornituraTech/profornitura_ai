@@ -3,3 +3,4 @@
 Deterministic minimal foundation for Frappe Cloud install.
 Scope: only app skeleton + doctype folders.
 No AI modules, no workflows, no external APIs.
+# profornitura_ai
