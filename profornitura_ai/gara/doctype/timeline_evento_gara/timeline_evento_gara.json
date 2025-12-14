@@ -1,0 +1,47 @@
+{
+  "doctype": "DocType",
+  "name": "Timeline Evento Gara",
+  "module": "Profornitura AI",
+  "document_type": "Document",
+  "custom": 0,
+  "autoname": "format:TLE-{YYYY}-{#####}",
+  "field_order": [
+    "section_main",
+    "gara",
+    "evento",
+    "data_evento"
+  ],
+  "fields": [
+    {
+      "fieldname": "section_main",
+      "fieldtype": "Section Break",
+      "label": "Evento Timeline"
+    },
+    {
+      "fieldname": "gara",
+      "fieldtype": "Link",
+      "label": "Gara",
+      "options": "Gara",
+      "reqd": 1
+    },
+    {
+      "fieldname": "evento",
+      "fieldtype": "Data",
+      "label": "Evento"
+    },
+    {
+      "fieldname": "data_evento",
+      "fieldtype": "Date",
+      "label": "Data Evento"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ]
+}
